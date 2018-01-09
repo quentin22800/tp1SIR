@@ -23,6 +23,7 @@ import org.jdesktop.swingx.JXBusyLabel;
 public class JXBusyLabelTest extends JFrame implements ActionListener {
 
 	JXBusyLabel bLabel1;
+	
 	JComboBox comboBackground, comboForeground;
 	JButton btnStart, btnStop;
 	Color[] colors = {Color.BLACK, Color.WHITE, Color.RED, Color.BLUE, Color.GREEN, Color.GRAY, Color.YELLOW};
